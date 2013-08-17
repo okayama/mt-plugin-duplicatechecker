@@ -1,6 +1,6 @@
-package MT::DuplicateChecker::L10N::ja;
+package DuplicateChecker::L10N::ja;
 use strict;
-use base qw/ MT::DuplicateChecker::L10N MT::L10N MT::Plugin::L10N /;
+use base qw( DuplicateChecker::L10N MT::L10N MT::Plugin::L10N );
 use vars qw( %Lexicon );
 
 our %Lexicon = (
